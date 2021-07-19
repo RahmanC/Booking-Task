@@ -1,0 +1,162 @@
+
+.bgg{
+	
+	background-attachment: fixed; 
+	background-size: 100% 100%;  
+	width: 78%; 
+	padding: 15px; 
+	margin: auto;
+}
+
+
+input{
+  border-radius: 5px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 15px;
+  width: 85%;
+  padding: 10px;
+  margin: 5px 20px;
+}
+
+.submit {
+	background-color: lightgreen;
+	color: white;
+	font-size: 15px;
+}
+
+h1 {
+	color: white;
+	/*margin: 20px;*/
+	font-size: 30px;
+	/*padding: 20px;*/
+}
+
+p {
+	color: white;
+	margin: 0px;
+	font-size: 15px;
+	padding: 0px;
+}
+
+p.icon {
+	color: black;
+	margin: 20px;
+	font-size: 15px;
+	text-align: center;
+}
+
+h2.icon {
+	color: black;
+	margin: 20px;
+	font-size: 15px;
+	text-align: center;
+
+}
+
+h2, h6 {
+	color: white;
+	margin: 20px;
+	font-size: 25px 11px;
+
+}
+
+
+
+div.form-container{
+	width: 30%;
+	float: left; background-color: gray; margin: 30px; opacity: 0.7;
+}
+
+div.instruction{
+	width: 50%;
+	float: left;
+	padding: 60px;
+
+}
+@media screen and (max-width: 800px){
+	.form-container .instruction .review{
+		width: 100%;
+	}
+}
+
+.img {
+	width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 10px;
+	
+}
+
+.icon-div {
+  padding:5px;
+  width: 80%;
+  margin: 40px auto;
+  text-align:center;
+  position: relative;
+}
+.icon-wrapper {
+  padding:5px;
+  display:inline-block;
+  font-size:20px;
+
+}
+
+
+.header{
+	background-color: white; 
+	width: 80%; 
+	margin-top: 0px;
+	margin-left: auto;
+	margin-bottom: 0px;
+	margin-right: auto;
+}
+
+
+.footer{
+	 
+	width: 80%; 
+	background-color: black;
+	margin: auto;
+	padding: 10px;
+}
+
+
+.circle-icon {
+    background: lightgray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.background{
+	background-color: lightgray;	
+	width: 77%; 
+	padding: 30px; 
+	margin: auto;
+	text-align:center;
+  
+}
+
+.review {
+	width: 40%; 
+	float: left;
+  padding:40px;
+  font-size:10px;
+
+}
+
+.checked {
+  color: orange;
+  padding-top: 10px;
+}
+
+
+

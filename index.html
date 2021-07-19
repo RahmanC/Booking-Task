@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://kit.fontawesome.com/77d4292098.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>TiideLab Exercise</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+	<!-- Header -->
+	 <div>
+				 	<header class="header" >
+					<div style="float: left;">
+						<h4 style="padding-left: 100px;">Pro Cleaners</h4>
+					</div>
+
+					<div style="float: right;">
+						<h4 style="padding-right: 100px;">Phone: 1-800-222-3030</h4>
+					</div>
+					
+					</header>
+				<div style="clear: both;"></div>
+	 </div>
+
+<!--  -->
+	<div class="bgg" style="background-image: url('images/img.jpg'); ">
+		
+		<div class="instruction" >
+			
+					<h1 style="text-align: center;">Vancouver's Best <br>Home Cleaners</h1>
+					<p style="text-align: center;">
+					Pro Cleaning is Vancouver's best cleaning service. For the <br>
+					quality maid service Vancouver relies on, book one of our <br>
+					experienced, background-checked professionals to have your <br>
+					home clean in no time.
+					</p>
+				
+		</div>
+
+		<!-- Form -->
+		<div class="form-container">
+				<h2>
+					Request Info & Booking
+				</h2>
+				<h6>
+					Fill this form and we will contact you soon as we can.
+				</h6>
+
+				<form action="" onsubmit="details()" name="bookingForm" id="bookingForm">
+					
+						<input type="text" name="name" id="name" placeholder="Your Name" required>
+						<input type="email" name="email" id="email" placeholder="Your Email" required>
+						<input type="text" name="phone" id="phone" placeholder="Your Phone" required>
+						<input type="submit" value="Request Info & Booking" class="submit">
+
+				</form>
+		</div>
+
+		<div style="clear: left;"></div>
+	</div>
+
+
+
+<!-- Icon section -->
+	   <div class="icon-div">
+              <div class="icon-wrapper" style="width: 30%; float: left;">
+              	<i class='fas fa-user-alt fa-10x circle-icon' style='font-size:48px;color:seagreen;'></i>
+              	<h2 class="icon">Trusted Proffesionals</h2>
+                <p class="icon"> Our professionals are experienced, <br> friendly, and background-checked.</p>
+              </div>
+                
+              <div class="icon-wrapperc" style="width: 30%; float: left;">
+                <i class='fas fa-calendar-alt fa-10x circle-icon' style='font-size:48px;color:seagreen;'></i>
+                <h2 class="icon">Available Everyday</h2>
+                <p class="icon"> We are available to serve you 7 days per <br> week. We'll work around your schedule.</p>
+              </div>
+              
+              <div class="icon-wrapperc" style="width: 30%; float: left;">
+              	<i class='fas fa-dollar-sign fa-10x circle-icon' style='font-size:48px;color:seagreen;'></i>
+              	<h2 class="icon">100% Money-Back Guarantee</h2>
+                <p class="icon"> If you are not satisfied, we'll refund all of <br> your money. It's as simple as that.</p>
+              </div>  
+                
+              <div style="clear: left;"></div>     
+     </div>
+
+
+
+<!-- Review Section -->
+  <div class="background">
+			<h1 style=" color: black; text-align: center;">What our Clients Say</h1>
+		
+				<div class="review" >
+					<img src="images/img2.jpg" class="img">
+		              	<h3 style="text-align: center;">Paulo Parra</h3> <hr>	
+		              	<p style="color:black;">The team was fast and friendly-honestly my <br> house hasn't been clean in years!</p>
+		              	<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+					
+				</div>
+
+				<div class="review" >
+					<img src="images/img3.jpg" class="img">
+		              	<h3 style="text-align: center;">Ana Carolina</h3> <hr>
+		              	<p style="color: black;">It feels so great walking in to a fresh, clean <br> apartment every day. These guys make my <br> place spotless!</p>
+		              	<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>		
+					
+				</div>
+				<div style="clear: left;"></div>
+	</div>
+
+<!-- Footer -->
+	 <div class="footer">
+	 		<div>
+				<i class="fa fa-copyright" style="color: white; padding-left: 100px;">Copyright. All rights reserved.</i>
+			</div>
+	 </div>
+
+</body>
+
+
+<!-- Script -->
+<script type="text/javascript">
+	function details(){
+		name = document.getElementById('name').value
+		email = document.getElementById('email').value
+		phone = document.getElementById('phone').value
+
+		alert(name)
+		alert(email)
+		alert(phone)	
+	}
+	
+</script>
+</html>
